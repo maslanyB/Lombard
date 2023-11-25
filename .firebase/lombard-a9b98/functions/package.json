@@ -1,0 +1,16 @@
+{
+  "name": "lombard",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "firebase-frameworks": "^0.11.0-canary.af90eab",
+    "@sveltejs/kit": "^1.27.4",
+    "firebase-functions": "^4.3.0",
+    "firebase-admin": "^11.0.1"
+  },
+  "main": "server.js",
+  "engines": {
+    "node": "20"
+  }
+}
