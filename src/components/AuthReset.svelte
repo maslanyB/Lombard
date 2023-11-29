@@ -10,7 +10,7 @@
       return;
     }
 
-    if (action === "updatePasss") {
+    if (action === "updatePassss") {
       return await authHandlers.updatePassword(newPass);
     }
 
