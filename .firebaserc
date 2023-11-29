@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "lombard-a9b98"
-  }
+    "default": "lombard-a9b98",
+    "lombard": "lombard-a9b98"
+  },
+  "targets": {},
+  "etags": {}
 }
