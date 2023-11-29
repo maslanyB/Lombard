@@ -18,17 +18,17 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-// const app = initializeApp(firebaseConfig);
-// const analytics = getAnalytics(app);
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
 
 // Initialize Firebase gosc z poradnika
-let firebaseApp;
-if (!getApps().length) {
-  firebaseApp = initializeApp(firebaseConfig);
-} else {
-  firebaseApp = getApp();
-  deleteApp(firebaseApp);
-  firebaseApp = initializeApp(firebaseConfig);
-}
+// let firebaseApp;
+// if (!getApps().length) {
+//   firebaseApp = initializeApp(firebaseConfig);
+// } else {
+//   firebaseApp = getApp();
+//   deleteApp(firebaseApp);
+//   firebaseApp = initializeApp(firebaseConfig);
+// }
 
-export const auth = getAuth(firebaseApp);
+// export const auth = getAuth(firebaseApp);
